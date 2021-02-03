@@ -4,7 +4,7 @@
     <!--pose>0 0 0 0 0 0</pose-->
 
     <link name="marker">
-      <pose>0 0 5 0 -1.57 0</pose>
+      <pose>1 1 4 0 -1.57 0</pose>
       <inertial>
         <mass>0.001</mass>
         <inertia>
@@ -19,7 +19,7 @@
       <visual name="front_visual">
         <geometry>
           <box>
-            <size>0.0001 0.3 0.3</size>
+            <size>0.0001 0.8 0.8</size>
           </box>
         </geometry>
         <material>
@@ -35,7 +35,7 @@
         <pose>-0.00005 0 0 0 0 0</pose>
         <geometry>
           <box>
-            <size>0.0001 0.3 0.3</size>
+            <size>0.0001 0.8 0.8</size>
           </box>
         </geometry>
       </visual>
@@ -43,7 +43,7 @@
         <!--pose>0 0 0 0 0 0</pose-->
         <geometry>
           <box>
-            <size>0.0001 0.3 0.3</size>
+            <size>0.0001 0.8 0.8</size>
           </box>
         </geometry>
       </collision>
