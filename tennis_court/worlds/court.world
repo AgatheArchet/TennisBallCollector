@@ -21,6 +21,9 @@
             <pose>0 0 8 3.14159 1.57079 3.14159</pose>
             <uri>model://zenith_camera</uri>
         </include>
+        <include>
+            <uri>model://aruco_marker</uri>
+        </include>
 
         <plugin name="gazebo_ros_state" filename="libgazebo_ros_state.so">
             <update_rate>10</update_rate>
